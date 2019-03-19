@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOM OR BUST!</title>
+
+    <!-- Linking Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Linking Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="./assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+       
+       
+       
+       <div class="row"> 
+       <div class="col-lg-3"></div>
+        <div class="col-lg-6" class="numberbox">
+            <h1>Instructions</h1>
+            <P>In order to start the game, press the "Random Number Button!". When the games begins, A random number will be displayed 
+               below. The items listed below in the items box will also be given a random value between 1 and 12, however the value will 
+               be hidden from the user. The user must use these buttons in order to match the random number generated at the beginning of the game
+               in order to win. If the user goes over, they will lose! Wins and losses will be recorded in the Win/Loss Column. GOOD LUCK!</p>
+            <button id="randnum">Random Number Button!</button>
+            <h1>Random Number Generated</h1>
+            <h3 id="result">???</h3>
+            <br>
+            <h1>User Total</h1>
+            <h3 id="itemtotal">???</h3>
+        </div> 
+        <div class="col-lg-3"></div>
+       </div> 
+        
+       <section class="main-section">
+        
+
+                <h1>Pick out of the following Items!</h1> 
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div id="item">
+                        <button id="button1" type="button" class="btn btn-primary">Ether</button> 
+                        <img src="./assets/images/Ether_KHII.png " class="img-fluid" alt="Ether">
+                        <h3>Ether</h3>
+                         </div>
+                    </div>   
+                        
+                    <div class="col-lg-3">    
+                        <div id="item">
+                        <button id="button2" type="button" class="btn btn-primary">Hi-Potion</button>
+                        <img src="./assets/images/Hi-Potion.png" class="img-fluid" alt="Hi-Potion">       
+                        <h3>Hi-Potion</h3>
+                        </div> 
+                    </div>      
+                        
+                    <div class="col-lg-3">    
+                        <div id="item">
+                        <button id="button3" type="button" class="btn btn-primary">Elixir</button>  
+                        <img src="./assets/images/Elixir.png" class="img-fluid" alt="Elixir">
+                        <h3>Elixir</h3>
+                        </div>
+                    </div>        
+                        
+                    <div class="col-lg-3">
+                        <div id="item">
+                        <button id="button4" type="button" class="btn btn-primary">Secret Item></button>
+                        <img src="./assets/images/Secret Item.jpg" class="img-fluid" alt="Secret-Item">
+                        <h3>????</h3>
+                        </div>     
+                    </div>
+                    
+            </section>
+    </div>
+
+</body>
+</html>
