@@ -62,6 +62,7 @@ $(document).ready(function() {
         total += (itemvalue2 + HiPotion) ;
         $('#itemtotal').html(total);
         console.log(itemvalue2);
+        scorecheck();
         });
         
 
@@ -72,6 +73,7 @@ $(document).ready(function() {
         total += (itemvalue3 + Elixir) ;
         $('#itemtotal').html(total);
         console.log(itemvalue3);
+        scorecheck();
         });
 
     $('#button4').on('click', function() {
@@ -81,6 +83,7 @@ $(document).ready(function() {
         total += (itemvalue4 + Materia) ;
         $('#itemtotal').html(total);
         console.log(itemvalue4);
+        
         });
             
 
